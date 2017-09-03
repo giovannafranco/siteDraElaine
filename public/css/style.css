@@ -2,7 +2,11 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 }
 p{
-	font-size: 1.3em;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+}
+label{
+	font-family: 'Lato', sans-serif;
 }
 .logo{
 	text-align: center;
@@ -11,12 +15,18 @@ p{
 	padding: 0px;
 }
 
+.input-group-addon{
+	background-color: #DAA520;
+	font-weight: bold;
+}
+
 .button{
 	background-color: #DAA520;
 	float:right;
 	font-weight: bold;
-	padding: 10px 15px 10px 15px;
 }
+
+
 
 .navbar{
   margin-bottom: 0;
@@ -30,11 +40,13 @@ p{
 
 .title{
 	text-align: center;
+	font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav .item-menu{
 	font-size: 1.3em;
 	color: #fff;
+	text-align:center;
 }
 
 .navbar-inverse .navbar-nav .item-menu:hover{
@@ -46,7 +58,7 @@ p{
 }
 
 .treatment{
-	padding: 10px 10px;
+	padding: 0px 10px 10px 10px;
 	background-color: #eadfc2;
 
 }
@@ -90,7 +102,7 @@ F
 
 .social-networks{
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 
 .clinic-information .caption{
@@ -131,12 +143,9 @@ outline:none;
 
 /*CLINIC*/
 
-.clinic{
-	padding: 20px 20px;
-}
-
 #big-image{
 	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .hide-bullets {
@@ -171,13 +180,15 @@ outline:none;
 
 .collapse{
 	text-align: center;
-	padding-left: 10px;
 }
+
 .ajustaTexto{
 	text-align: center;
 	background-color:#eadfc2;
 	font-size:1.3em;
-    border: 1px solid #DAA520;
+  border: 1px solid #DAA520;
+  font-family: 'Lato', sans-serif;
+
 }
 .treatment-img {
 	width:100%;
@@ -245,12 +256,8 @@ outline:none;
 }
 
 @media only screen and (max-width: 980px){
-    #slider-thumbs { 
+  #slider-thumbs { 
 		display: none; 
-	}
-	
-	.teste{ 
-		width:100%
 	}
 	
 	#carousel-bounding-box{
@@ -265,4 +272,13 @@ outline:none;
 		padding-top: 80px;
 	}
 
+	.footer{
+		margin-top: 15px; 
+	}
+}
+
+@media only screen and (min-width: 980px){
+	.menu{
+	position:absolute; 
+	background-color: rgba(0,0,0,0.7);
 }
