@@ -18,12 +18,14 @@ label{
 .input-group-addon{
 	background-color: #DAA520;
 	font-weight: bold;
+	cursor:  pointer;
 }
 
 .button{
 	background-color: #DAA520;
 	float:right;
 	font-weight: bold;
+	cursor:  pointer;
 }
 
 
@@ -84,7 +86,7 @@ F
 }
 
 .separator-size{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	width:210px;
 	height:40px;
 }
@@ -155,6 +157,7 @@ outline:none;
 }
 
 .thumbnail {
+	margin-bottom: 32px;
     padding: 0;
 }
 
@@ -164,7 +167,7 @@ outline:none;
 
 #about-clinic{
 	text-align: justify;
-	padding:15px;
+
 }
 
 /*TREATMENT*/
@@ -228,7 +231,6 @@ outline:none;
 	
 /*DETAILS NEW*/
 .texto{
-	padding:15px;
 	text-align: justify;
 }
 
